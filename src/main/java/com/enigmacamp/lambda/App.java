@@ -52,7 +52,7 @@ public class App {
         };
 
         Comparator<String> c2 = (a, b) -> a.length() - b.length();
-        List<String> s = new ArrayList<>(List.of("dfa", "cd", "dwas"));
+        List<String> s = new ArrayList<>(List.of("efa", "cd", "dwas"));
         s.sort(c2.reversed());
         s.stream().forEach(System.out::println);
 
